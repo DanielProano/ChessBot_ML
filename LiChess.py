@@ -1,4 +1,4 @@
 import os
-print(os.getenv("LICHESS_API_TOKEN"))
+API_Token = os.getenv("LICHESS_API_TOKEN")
 
-#change
+print(API_Token)
