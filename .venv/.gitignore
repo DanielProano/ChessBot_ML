@@ -1,7 +1,0 @@
-# created by virtualenv automatically
-.idea/
-.env
-__pycache__/
-*.pyc
-workspace.xml
-./venv
