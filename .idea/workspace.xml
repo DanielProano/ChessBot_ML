@@ -65,7 +65,6 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="LICHESS_API_TOKEN" value="lip_oPvXNFuMrexfAgK4q4V6" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.12 (ChessBot_ML)" />
