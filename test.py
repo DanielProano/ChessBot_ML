@@ -1,8 +1,5 @@
-from io import TextIOWrapper
-from torch.utils.data import DataLoader, Dataset
 import CNN
 import torch
-import zstandard
 from FEN_conversion import fen_to_tensor
 import json
 import torch.nn as nn

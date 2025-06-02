@@ -10,7 +10,8 @@ def main():
     model = CNN.CNN().to(device)
     optimizer = optim.Adam(model.parameters(),lr=1e-3)
     loss = nn.MSELoss()
-    data = CD.ChessDataset("Dataset/cleaned_dataset", 1000000)
+    #205,353,531 is the limit
+    data = CD.ChessDataset("Dataset/cleaned_dataset", 5000000)
     loader = DataLoader(data, batch_size=3000, shuffle=True, num_workers=1)
 
     for epoch in range(10):
