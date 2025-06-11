@@ -5,7 +5,7 @@ import json
 import torch.nn as nn
 
 model = CNN.CNN()
-model.load_state_dict(torch.load("results_5mil_eph100_mse65.pth"))
+model.load_state_dict(torch.load("results_200mil_epoch10_mse50.pth"))
 model.eval()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
